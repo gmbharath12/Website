@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z_-]*)$ productAvailability.php?product=$1 [nc,qsa]
